@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table{
+            margin-left: 35%;
+        }
+        td{
+        padding: 10px;
+        }
+        input{
+            width: 200px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        h1{
+            margin-top: 0%;
+            margin-left: 45%;
+        }
+        button{
+            margin-left: 46%; 
+            height: 50px;
+            width: 150px;
+            border-radius: 15px;
+            background-color: rgb(175, 228, 228);
+        }
+        #member{
+            margin-left: 44%;
+        }
+        #signin{
+            margin-left: 0.5%;
+        }
+       #desc{
+        margin-left: 36%;
+        margin-top: 20px;
+       }
+       textarea{
+           width: 500px;
+           height: 150px;
+           max-lines: 100;
+       }
+    </style>
+</head>
+<body>
+    <div class="logo"><a href="hp.html"><img src="ihslogo.png" alt="Product Name"></a></div>
+        <div>
+            <nav>
+                <ul>
+                    <li id="li1"><a href="#">Invite <br>Friend</a></li>
+                    <li><a href="#">Contact<br> Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    <h1><b>POST A JOB</b></h1>
+    <table>
+        <tr>
+            <td>
+                <input type="text" placeholder="Job Title">
+            </td>
+            <td>
+
+            </td>
+            <td>
+                <input type="text" placeholder="Job Location">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" placeholder="Top 3 Skills">
+            </td>
+            <td>
+
+            </td>
+            <td>
+                <input type="text" placeholder="Job Compensation">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" placeholder="Company Name">
+            </td>
+            <td>
+
+            </td>
+            <td>
+                <input type="text" placeholder="Industry">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Category">Job Category</label>
+                    <select name="Category">
+                         <optgroup label="Category">
+                            <option value="1">Full Time</option>
+                            <option value="1">Contract</option>
+                            <option value="1">Freelance</option>
+                        </optgroup>
+                     </select>
+            </td>
+            <td>
+                
+            </td>
+            <td>
+                <label for="maxexp">Max Exp:</label>
+                <select>
+                <optgroup label="Max Exp">
+                        <option value="1">1</option>
+                        <option value="1">2</option>
+                        <option value="1">3</option>
+                        <option value="1">4</option>
+                        <option value="1">5</option>
+                        <option value="1">6</option>
+                        <option value="1">7</option>
+                        <option value="1">8</option>
+                        <option value="1">9</option>
+                        <option value="1">10</option>
+                        <option value="1">11</option>
+                        <option value="1">12</option>
+                        <option value="1">13</option>
+                        <option value="1">14</option>
+                        <option value="1">15</option>
+                        <option value="1">16</option>
+                        <option value="1">17</option>
+                        <option value="1">18</option>
+                        <option value="1">19</option>
+                        <option value="1">20</option>
+                        <option value="1">21</option>
+                        <option value="1">22</option>
+                        <option value="1">23</option>
+                        <option value="1">24</option>
+                        <option value="1">25</option>
+                        <option value="1">26</option>
+                        <option value="1">27</option>
+                        <option value="1">28</option>
+                        <option value="1">29</option>
+                        <option value="1">30</option>
+                </optgroup>
+            </select> 
+            
+                <label for="minexp">Min Exp:</label>
+                <select>
+                <optgroup label="Min Exp">
+                        <option value="1">1</option>
+                        <option value="1">2</option>
+                        <option value="1">3</option>
+                        <option value="1">4</option>
+                        <option value="1">5</option>
+                        <option value="1">6</option>
+                        <option value="1">7</option>
+                        <option value="1">8</option>
+                        <option value="1">9</option>
+                        <option value="1">10</option>
+                        <option value="1">11</option>
+                        <option value="1">12</option>
+                        <option value="1">13</option>
+                        <option value="1">14</option>
+                        <option value="1">15</option>
+                        <option value="1">16</option>
+                        <option value="1">17</option>
+                        <option value="1">18</option>
+                        <option value="1">19</option>
+                        <option value="1">20</option>
+                        <option value="1">21</option>
+                        <option value="1">22</option>
+                        <option value="1">23</option>
+                        <option value="1">24</option>
+                        <option value="1">25</option>
+                        <option value="1">26</option>
+                        <option value="1">27</option>
+                        <option value="1">28</option>
+                        <option value="1">29</option>
+                        <option value="1">30</option>
+                </optgroup>
+            </select> 
+            </td>
+        </tr>
+    </table>
+                <div id="desc">
+                    <label for="text" >Job Description</label><br/>
+               <textarea></textarea>
+                </div><br>
+                
+    <button onclick="window.location.href = 'continue.html';">continue</button><br/><br>
+    <a id="member" href="member-signin.html"> Dont have an account? Create One</a>
+
+    <!-- <a id="member" href="member-register.html"> Already Member? </a>
+    <a id="signin" href="member-signin.html">Sign In Here</a> -->
+</body>
+</html>

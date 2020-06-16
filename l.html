@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+<link rel="stylesheet" href="style.css">
+    <style>
+        
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-image: url("l.jpeg");
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h1{
+            margin-left: 30px;
+        }
+        #google{
+            margin-left: 20px;  
+            padding: 5px;
+            width: 175px;
+            height: 45px;
+            border: none;
+            color: white;
+            background-color: rgb(163, 9, 9);
+        }
+        #linkedin{
+            margin-top: 0px;
+            margin-left: 10px;
+            padding: 5px;
+            width: 175px;
+            height: 45px;
+            color: white;
+            background-color: skyblue;
+        }
+        #e{
+        margin-left: 20px;
+        border-radius: 10px;
+        padding: 20px;
+        padding-right: 200px;
+        text-align:left;
+        }
+        #p{
+            margin-left: 20px;
+            border-radius: 10px;
+            padding: 20px;
+            padding-right: 200px;
+            text-align: left;
+        }
+        #ch{
+            margin-left: 20px;
+
+        }
+
+        button{
+            
+            margin-left: 20px;  
+            padding: 5px;
+            width: 370px;
+            height: 45px;
+            border: none;
+            color: white;
+            background-color: steelblue;
+            
+            
+        }
+       #fp{
+           margin-left: 90px;
+           text-decoration: none;
+       }
+       #ca{
+           margin-left: 80px;
+           float: left;
+           text-decoration: none;
+       }
+       p{
+           margin-left: 20px;
+       }
+       
+    </style>
+</head>
+    <body>
+        <div class="logo"><a href="hp.html"><img src="ihslogo.png" alt="Product Name"></a></div>
+        <div>
+            <nav>
+                <ul>
+                    <li id="li1"><a href="#">Invite <br>Friend</a></li>
+                    <li><a href="#">Contact<br> Us</a></li>
+                </ul>
+            </nav>
+        </div>
+<br><br>
+
+
+        <h1>Welcome to IHS Jobs</h1>
+        <button id="google" onclick="window.location.href = 'google.html';">Sign in with google</button>
+        <button id="linkedin" onclick="window.location.href = 'linkedin.html';">Sign in with linkedin</button><br><br>
+        <p>CareerBuilder will never post content to your socail pages</p>
+
+        <input type="email" id="e" placeholder="Email Id:"> <br> <br>
+        <input type="password" id="p" placeholder="password"> <br> <br>
+        <input type="checkbox" id="ch" name="remember" value="remember">
+        <label for="remember">Keep me signed in</label>
+        <a href="fp.html" id="fp">forgot password?</a><br><br>
+ 
+        <button onclick="window.location.href = 'aftersignin.html';">Sign In</button>
+    </div><br>
+        <a id="ca" href="CreateAccount.html"> Dont have an account? Create One</a>
+        <footer>
+            Footer
+        </footer>
+
+      
+</body>
+</html>

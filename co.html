@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-image: url("");
+            background-position:center;
+            background-attachment: scroll;
+            background-repeat: no-repeat;
+            background-size:cover;
+        } 
+    input{
+        margin-left: 900px;
+        padding: 10px;
+        border-radius: 10px;
+        padding-right: 80px;
+    } 
+    select{
+        margin-left: 900px;
+        padding: 10px;
+        padding-right: 115px;
+        border-radius: 10px;
+    }
+    h1{
+        margin-left: 900px;
+        margin-top: 0px;
+    }
+    h2{
+      margin-left: 900px;
+    }
+    #sub{
+        padding: 5px;
+        width: 270px;
+        height: 45px;
+        border: none;
+        color: white;
+        background-color: steelblue;
+        margin-left:890px;
+    }
+    nav{
+    width: 100%;
+    overflow: auto;
+    background-color: white;
+}
+ul{
+    padding: 0;
+    margin: 0 0 0 160px;
+    list-style: none;
+}
+li{
+    float: left;
+}
+#li1{
+    margin-left: 800px;
+}
+.logo img{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+nav a{
+    display: block;
+    padding: 30px 10px 20px 10px;
+    text-decoration: none;
+    font-family: arial;
+    color: black;
+    text-align: center;
+}
+nav a:hover{
+    background: skyblue;
+    transition: 0.5s;
+}
+    .navbar ul{
+        display: inline-block;
+    }
+    .navbar ul li{
+        display: inline-block;
+        position: relative;
+        }
+        .navbar ul li a{
+            display: inline-block;
+            text-decoration: none;
+            letter-spacing: 0.5px;
+
+        }
+        .navbar ul li a:hover{
+            background-color: skyblue;
+
+        }
+
+   .navbar ul li.dropdown ul{
+       position: absolute;
+       left: 0;
+       padding-left: 0px;
+       max-width: 180px;
+       display: none;
+
+
+   }
+   .navbar ul li.dropdown ul li a{
+       width: 180px;
+
+   }
+   .navbar ul li.dropdown:hover ul{
+       display: block;
+   }
+   footer{
+    text-align: center;
+    margin-top: 300px;
+    padding: 35px;
+    background-color:rgba(207, 203, 203, 0.918);
+}
+  </style>
+  <body>
+    <div class="logo"><a href="hp.html"><img src="ihslogo.png" alt="Product Name"></a></div>
+    <div class="navbar">
+        <nav>
+            <ul>
+               <li class="dropdown"><a href="#">Small Bussiness</a>
+                <ul>
+                    <li><a href="#">Job Posting</a></li>
+                    <li><a href="#">Resume Database</a></li>
+                    <li><a href="#">Company Profile</a></li>
+                    <li><a href="#">Value Plans</a></li>
+                </ul>
+            </li>
+               <li class="dropdown"><a href="#">Enterprise</a>
+                <ul>
+                    <li><a href="#">Talent Resources</a></li>
+                    <li><a href="#">Source & Screen</a></li>
+                    <li><a href="#">Social Network</a></li>
+                    <li><a href="#">ATS</a></li>
+                </ul>           
+            </li> 
+               <li><a href="#">Demo</a></li>
+
+                <li id="li1"><a href="CreateAccount.html">Sign Up</a></li>
+                <li><a href="l.html">Log In</a></li>
+            </ul>
+        </nav>
+    </div>
+       <div>
+            <h1>Contact Info</h1>
+      <input type="text"  placeholder="Full Name"> <br> <br>
+      <input type="email" placeholder="Email Address"> <br> <br>
+      <input type="text" placeholder="Company Name"> <br> <br>
+      <input type="text" placeholder="Title"> <br> <br>
+      <h2>Other Info</h2>
+      <input type="text" placeholder="Current Applicant Tracking System"> <br> <br>
+      <select>
+          <optgroup label="Company Size">
+          <option value="1">0-50</option>
+          <option value="1">51-100</option>
+          <option value="1">101-150</option>
+          <option value="1">151-300</option>
+          <option value="1">300-500</option>
+          <option value="1">500+</option>
+        </optgroup>
+      </select><br><br>
+      
+     
+      <input type="submit"  id="sub" value="Request Demo">
+    </div>
+      <footer>
+        FOOTER
+    </footer>
+</body>
+</html>

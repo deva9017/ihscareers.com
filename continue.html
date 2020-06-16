@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        table{
+            margin-left: 30%;
+        }
+        td{
+        padding: 15px;
+        }
+        tr{
+            padding: 10px;
+        }
+       #in{
+            width: 200px;
+            height: 30px;
+            border-radius: 10px;
+        } 
+        textarea{
+            width: 300px;
+           height: 150px;
+           max-lines: 100;
+        }
+        h1{
+            margin-top: 2%;
+            margin-left: 40%;
+        }
+        button{
+            margin-left: 45%; 
+            height: 30px;
+            width: 150px;
+            border-radius: 5px;
+            background-color: rgb(175, 228, 228);
+        }
+       #check{
+           margin-left:36%;
+       }
+    </style>
+</head>
+<body>
+    <div class="logo"><a href="hp.html"><img src="ihslogo.png" alt="Product Name"></a></div>
+        <div>
+            <nav>
+                <ul>
+                    <li id="li1"><a href="#">Invite <br>Friend</a></li>
+                    <li><a href="#">Contact<br> Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    <h1><b>Company Details</b></h1>
+    <table>
+        <tr>
+            <td>
+                <input id="in" type="text" placeholder="Contact Person">
+            </td>
+            <td>
+                <input id="in" type="number" placeholder="How Many Members ?">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input id="in" type="number" placeholder="Mobile Number">
+            </td>
+            <td>
+                <input id="in" type="email" placeholder="Email Id">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input id="in" type="password" placeholder="Password">
+            </td>
+            <td>
+                <!-- <input id="in" type="text" placeholder="Company Type"> -->
+    
+               <input type="radio" id="Company" name="type" value="Companies">
+               <label for="Companies">Company</label>
+               <input type="radio" id="Agency" name="type"value="Agency">
+               <label for="Agency">Agency</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <textarea placeholder="Additional Remarks"></textarea>
+            </td>
+            <td>
+                <label for="logo"><b>Company Logo</b></label><br/>
+                 <input type="file" id="myfile" name="myfile"><br>
+            </td>
+        </tr>
+    </table>
+    <Div id="check">
+        <input type="checkbox">
+        <label>Agree with terms & conditions given by the Job portal</label><br/><br>
+    </Div>
+    <button  type="submit" onclick="window.location.href = 'post-submit.html';">Submit</button>
+
+</body>
+</html>
